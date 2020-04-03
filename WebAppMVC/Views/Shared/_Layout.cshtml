@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<!-- Idioma  -->
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+
+    <!-- Titulo de la pestaña-->
+    <title>Titulo de la pestaña</title>
+
+    <!-- Icono de pestaña-->
+    <link rel="shortcut icon" href="~/img/bulb.ico">
+
+    <!-- Bootstrap 4 CSS-->
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+
+    <!-- ALERTIFY HOJA DE ESTILOS-->
+    <link href="~/Content/alertify.css" rel="stylesheet" />
+
+    <!-- Custom stylesheet -->
+    <!--  Jquery -->
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
+
+    <!-- include alertify script -->
+    <script src="~/Scripts/alertify.js"></script>
+
+    <!-- Popper para algunas funcionas de bootstrap 4 -->
+    <script src="~/Scripts/popper.js"></script>
+
+    <!-- Bootstrap 4 js -->
+    <script src="~/Scripts/bootstrap.js"></script>
+
+    <!-- Font Awesome 5  -->
+    <script src="~/Scripts/all.js"></script>
+
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
+    <script src="~/Scripts/moment-with-locales.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        @RenderBody()
+
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.ToLongDateString().ToUpper() - Benjamin</p>
+        </footer>
+
+
+
+     
+    </div>
+
+    
+
+
+    
+
+</body>
+</html>

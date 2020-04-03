@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "TestFecha";
+}
+
+<script src="~/Scripts/moment-with-locales.min.js"></script>
+<script>
+
+    moment.locale("es");
+    // MI FECHA DE NACIMIENTO
+    var fecha = moment("20121985", "DDMMYYYY").format('L');
+
+    alert(fecha);
+</script>
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script>
+
+    $.get("/Productos/Fecha", function (fecha) {
+
+        moment.locale("es");
+
+        fecha = moment(fecha).format('L');
+        alert(fecha);
+    });
+
+
+</script>
+<h2>TestFecha</h2>
+
