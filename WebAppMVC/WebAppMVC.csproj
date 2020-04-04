@@ -179,6 +179,9 @@
     <Content Include="Scripts\v4-shims.min.js" />
     <Content Include="Views\Default\Html5.html" />
     <Content Include="Views\Default\Index2.html" />
+    <Content Include="Views\HTML5\Cards.html" />
+    <Content Include="Views\HTML5\Datatables.html" />
+    <Content Include="Views\HTML5\Editor.html" />
     <Content Include="Web.config" />
     <Content Include="Views\Default\Index.cshtml" />
   </ItemGroup>
@@ -207,6 +210,7 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
     <Content Include="Views\Productos\TestFecha.cshtml" />
     <Content Include="Views\Productos\TablaProductos.cshtml" />
+    <Content Include="Views\Productos\Tabla.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
